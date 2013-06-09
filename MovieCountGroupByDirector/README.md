@@ -3,11 +3,10 @@
 
 This map reduce job works with unstructured data in the form of an xml file. The data we'll be working with is an xml dump of my XBMC video library, which contains movies and TV Shows. In this project we'll be doing a simple query to get only the movie directors, the number of movies they've directed and also the movie titles.
 
-Example MR output: 
-Director        Count   Titles
-Steven Brill      2	Heavyweights, Drillbit Taylor
-Steven Lisberger	1	TRON
-Steven Spielberg	9	Catch Me If You Can, Saving Private Ryan, Indiana Jones and the Last Crusade, Indiana Jones and the Temple of Doom, Jurassic Park, The Lost World: Jurassic Park, Minority Report, Indiana Jones and the Kingdom of the Crystal Skull, Raiders of the Lost Ark
+Example output
+- Steven Brill      2	Heavyweights, Drillbit Taylor
+- Steven Lisberger	1	TRON
+- Steven Spielberg	9	Catch Me If You Can, Saving Private Ryan, Indiana Jones and the Last Crusade, Indiana Jones and the Temple of Doom, Jurassic Park, The Lost World: Jurassic Park, Minority Report, Indiana Jones and the Kingdom of the Crystal Skull, Raiders of the Lost Ark
 
 Instructions on how to build and run the project:
 - cd to the MovieCountGroupByDirector directory
