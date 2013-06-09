@@ -10,8 +10,8 @@ Steven Lisberger	1	TRON
 Steven Spielberg	9	Catch Me If You Can, Saving Private Ryan, Indiana Jones and the Last Crusade, Indiana Jones and the Temple of Doom, Jurassic Park, The Lost World: Jurassic Park, Minority Report, Indiana Jones and the Kingdom of the Crystal Skull, Raiders of the Lost Ark
 
 Instructions on how to build and run the project:
-1. cd to the MovieCountGroupByDirector directory
-2. load the data we'll be working with into HDFS by running the command 'hadoop fs -put ./data/videodb.xml /data/videodb.xml'
-3. next build the map reduce jar with maven by executing the command 'mvn clean install' from the MovieCountGroupByDirector directory
-4. finally start the map reduce job with the jar that was created in the target directory by entering the command 'hadoop jar target/MovieCountGroupByDirector-0.0.1-SNAPSHOT-jar-with-dependencies.jar /data/videodb.xml /results/movies"
-You can view the results in hdfs with the command 'hadoop fs -cat /results/movies/part-r-00000'
+- cd to the MovieCountGroupByDirector directory
+- load the data we'll be working with into HDFS by running the command 'hadoop fs -put ./data/videodb.xml /data/videodb.xml'
+- next build the map reduce jar with maven by executing the command 'mvn clean install' from the MovieCountGroupByDirector directory
+- finally start the map reduce job with the jar that was created in the target directory by entering the command 'hadoop jar target/MovieCountGroupByDirector-0.0.1-SNAPSHOT-jar-with-dependencies.jar /data/videodb.xml /results/movies"
+- You can view the results in hdfs with the command 'hadoop fs -cat /results/movies/part-r-00000'
