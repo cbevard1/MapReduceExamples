@@ -1,7 +1,7 @@
 #MovieCountGroupByDirector
 ==========================
 
-This map reduce job works with unstructured data in the form of an xml file. The data we'll be working with is an xml dump of my XBMC video library, which contains movies and TV Shows. In this project we'll be doing a simple query to get only the movie directors, the number of movies they've directed and also the movie titles.
+This map reduce job works with unstructured data in the form of an xml file. The data we'll be working with is an metadata dump of my XBMC video library, which contains movies and TV Shows. In this project we'll be doing a simple query to get only the movie directors, the number of movies they've directed and also the movie titles.
 
 Example output
 - Steven Brill      2	Heavyweights, Drillbit Taylor
